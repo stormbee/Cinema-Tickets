@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_LastSelectedProfileId>E:\Visual Studio 2017\colledge\WPF\CinemaTickets\Properties\PublishProfiles\FolderProfile.pubxml</_LastSelectedProfileId>
+  </PropertyGroup>
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="view\AuthPages\Movies.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="view\AuthPages\Personal_Info.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="view\AuthPages\Seats.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="view\AuthPages\Settings.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="view\StartPages\AdminPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="view\StartPages\UserPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="view\StartPages\Registration.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="view\AuthPages\CinemaWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="view\AuthPages\Movies.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="view\AuthPages\Personal_Info.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="view\AuthPages\Seats.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="view\AuthPages\Settings.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="view\StartPages\AdminPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="view\StartPages\UserPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="view\StartPages\Registration.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

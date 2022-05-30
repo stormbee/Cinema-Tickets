@@ -1,0 +1,2 @@
+E:\Visual Studio 2017\colledge\WPF\CinemaTickets\bin\Release\netcoreapp3.1\publish\CinemaTickets.pdb
+E:\Visual Studio 2017\colledge\WPF\CinemaTickets\bin\Release\netcoreapp3.1\publish\CinemaTickets.exe

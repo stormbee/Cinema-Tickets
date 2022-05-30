@@ -1,0 +1,24 @@
+﻿<Page x:Class="CinemaTickets.Registration"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:CinemaTickets"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Registration">
+
+    <Grid HorizontalAlignment="Center"  VerticalAlignment="Center" Height="285">
+        
+        <Label  Content="New User" HorizontalAlignment="Center" Margin="0,25,0,0" VerticalAlignment="Top"/>
+        <Label  Content="Login"  Margin="0,53,0,0" VerticalAlignment="Top" Height="26"/>
+        <TextBox x:Name="textBox_LoginUser" HorizontalAlignment="Center" Margin="0,79,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="100" Height="18"/>
+        <Label  Content="Password" HorizontalAlignment="Center" Margin="0,100,0,0" VerticalAlignment="Top" Width="100" Height="26"/>
+        <PasswordBox x:Name="passwordBox_User" PasswordChar="X" HorizontalAlignment="Center" Margin="0,124,0,0" VerticalAlignment="Top" Width="100" Height="18"/>
+        <Label  Content="Again Password" HorizontalAlignment="Center" Margin="0,142,0,0" VerticalAlignment="Top" Width="100" Height="26"/>
+        <PasswordBox x:Name="passwordBox_User_Again" PasswordChar="X" HorizontalAlignment="Center" Margin="0,166,0,0" VerticalAlignment="Top" Width="100" Height="18"/>
+        <Button x:Name="button_RegistrationUser" Content="Registration" Margin="0,200,0,0" Width="100" Height="25" Background="LightGray" HorizontalAlignment="Center" VerticalAlignment="Top" Click="button_RegistrationUser_Click" />
+        <Button x:Name="button_CancelRegistration" Content="Cancel" Margin="0,240,0,0" Width="100" Height="25" Background="LightGray" HorizontalAlignment="Center" VerticalAlignment="Top" Click="button_CancelRegistration_Click" />
+
+    </Grid>
+</Page>
